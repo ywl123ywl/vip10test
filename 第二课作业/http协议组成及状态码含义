@@ -1,0 +1,20 @@
+HTTP协议组成及状态码含义：
+
+HTTP协议组成：
+    1、请求：
+        a、请求头：
+            header：请求地址、请求方式、请求类型、cooki、token、userAgent
+        b、请求体：
+            body：请求参数
+    2、响应：
+        a、响应头：
+            header：状态行、content-type、服务器返回的cookie
+        b、响应体：
+            body：响应数据
+
+状态码含义：
+    2XX：
+        200---请求成功（不代表业务逻辑成功）
+    3XX：重定向
+    4XX：客户端错误
+    5XX：服务端错误
